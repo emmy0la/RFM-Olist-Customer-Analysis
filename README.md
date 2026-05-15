@@ -126,12 +126,26 @@ Included:
 - purchase date
 - payment value
 
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/Main%20JOIN%20query.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/customer_transactions%20output%20preview.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/duplicate%20validation%20OR%20repeat%20customer%20validation.png)
+
+The RFM analysis was conducted using only delivered orders, ensuring every transaction represented a completed purchase and realized revenue. 
+
+Raw relational tables were transformed into a clean, analysis-ready customer transaction dataset, providing the foundation for all Recency, Frequency, and Monetary calculations that followed.
+
 ## Phase 3: RFM Feature Engineering
 
 Generated:
 - recency_days
 - total_orders
 - total_spent
+
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/Main%20RFM%20engineering%20query.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/customer_rfm_base%20output%20preview.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/frequency%20distribution%20query.png)
+
+The ransactional data was converted into customer-level business metrics — answering: How recent? How often? How much?
 
 ## Phase 4: Customer Scoring
 
@@ -140,9 +154,15 @@ Assigned:
 - F Score
 - M Score
 
-## Phase 5: Customer Segmentation
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/Main%20scoring%20query.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/RFM%20scores%20output%20preview.png)
 
-Segmented customers into:
+The raw customer behavior was transformed into measurable customer quality scores — each customer ranked 1-5 on Recency, Frequency, and Monetary — then segmented from Champions to Lost.
+
+## Phase 5: Customer Segmentation
+Segmented customers into behavioral groups using RFM scoring logic.
+
+Segments created:
 - Champions
 - Loyal Customers
 - Potential Loyalists
@@ -150,6 +170,12 @@ Segmented customers into:
 - At Risk
 - Lost Customers
 - Need Attention
+
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/Screenshot%202026-05-15%20122417.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/segment%20distribution%20screenshot.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/dashboard%20screenshot%20showing%20segment%20chart.png)
+
+SQL logic was implemented using CASE statements based on Recency, Frequency, and Monetary scores — converting 1-5 rankings into customer segments: Champions, Loyal, At Risk, Lost, and Regular.
 
 ---
 
@@ -167,7 +193,7 @@ Segmented customers into:
 
 # Dashboard Preview
 
-![Dashboard](images/dashboard_screenshot.png)
+![image/Dashboard screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/Dashboard%20screenshots/Dashboard%20Screenshot.png)
 
 ---
 
