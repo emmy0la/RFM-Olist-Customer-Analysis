@@ -112,6 +112,10 @@ Performed:
 - date range inspection
 - unique customer validation
 
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/32653b2a11808010e7f17f2b42c88576ba800fe0/Images/SQL%20execution%20screenshots/NULL%20check.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/32653b2a11808010e7f17f2b42c88576ba800fe0/Images/SQL%20execution%20screenshots/Relationship%20validation.png)
+![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/32653b2a11808010e7f17f2b42c88576ba800fe0/Images/SQL%20execution%20screenshots/JOIN%20preview.png)
+
 ## Phase 2: Transaction Dataset Creation
 
 Built a clean transactional table using SQL JOIN operations.
