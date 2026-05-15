@@ -96,7 +96,8 @@ Customers → Orders → Payments
 
 ## ER Diagram
 
-![ER Diagram](images/er_diagram.png)
+![Image]([images/er_diagram.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/acbe36365dd7a9eb69c058e85c9c9dfef5cf03aa/Images/ER%20Diagram/ER_Diagram%201.png)
+![Image](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/acbe36365dd7a9eb69c058e85c9c9dfef5cf03aa/Images/ER%20Diagram/ER_Diagram%202.png
 
 ---
 
