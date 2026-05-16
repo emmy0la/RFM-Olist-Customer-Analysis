@@ -311,4 +311,5 @@ I learned how to move from raw transactional data to actionable business decisio
 Emmanuel Olawumi
 
 Data Analyst | SQL | Excel | Business Intelligence | Digital Strategy
+
 https://www.linkedin.com/in/emmanuelolawumi/
