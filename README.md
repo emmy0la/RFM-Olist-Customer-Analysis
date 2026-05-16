@@ -145,7 +145,7 @@ Generated:
 ![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/customer_rfm_base%20output%20preview.png)
 ![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/frequency%20distribution%20query.png)
 
-The ransactional data was converted into customer-level business metrics — answering: How recent? How often? How much?
+The ransactional data was converted into customer-level business metrics - answering: How recent? How often? How much?
 
 ## Phase 4: Customer Scoring
 
@@ -157,7 +157,7 @@ Assigned:
 ![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/Main%20scoring%20query.png)
 ![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/RFM%20scores%20output%20preview.png)
 
-The raw customer behavior was transformed into measurable customer quality scores — each customer ranked 1-5 on Recency, Frequency, and Monetary — then segmented from Champions to Lost.
+The raw customer behavior was transformed into measurable customer quality scores - each customer ranked 1-5 on Recency, Frequency, and Monetary - then segmented from Champions to Lost.
 
 ## Phase 5: Customer Segmentation
 Segmented customers into behavioral groups using RFM scoring logic.
@@ -175,7 +175,7 @@ Segments created:
 ![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/segment%20distribution%20screenshot.png)
 ![image/SQL execution screenshots.png](https://github.com/emmy0la/RFM-Olist-Customer-Analysis/blob/68c5c49c060e3b3a279ebb3ddecd14dbec0b4763/Images/SQL%20execution%20screenshots/dashboard%20screenshot%20showing%20segment%20chart.png)
 
-SQL logic was implemented using CASE statements based on Recency, Frequency, and Monetary scores — converting 1-5 rankings into customer segments: Champions, Loyal, At Risk, Lost, and Regular.
+SQL logic was implemented using CASE statements based on Recency, Frequency, and Monetary scores - converting 1-5 rankings into customer segments: Champions, Loyal, At Risk, Lost, and Regular.
 
 ---
 
@@ -311,5 +311,4 @@ I learned how to move from raw transactional data to actionable business decisio
 Emmanuel Olawumi
 
 Data Analyst | SQL | Excel | Business Intelligence | Digital Strategy
-
-LinkedIn: (https://www.linkedin.com/in/emmanuelolawumi/)
+https://www.linkedin.com/in/emmanuelolawumi/
